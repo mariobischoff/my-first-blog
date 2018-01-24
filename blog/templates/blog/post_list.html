@@ -3,6 +3,20 @@
 		<title>Blog</title>
 	</head>
 	<body>
+<<<<<<< 5aa09bf3421796c56ae8bcc7f7a89bf1e6400d03
 		<h2>Teste</h2>
+=======
+		<div>
+			<h1>Django Blog</h1>
+		</div>
+
+		{% for post in posts %}
+			<dir>
+				<p>published: {{ post.published_date }}</p>
+				<h1>{{ post.title }}</h1>
+				<p>{{ post.text|linebreaksbr }}</p>>
+			</dir>
+		{% endfor %}
+>>>>>>> Modified templates to display posts from database.
 	</body>
 </html>
