@@ -3,38 +3,16 @@
 		<title>Blog</title>
 	</head>
 	<body>
-<<<<<<< HEAD
-<<<<<<< 5aa09bf3421796c56ae8bcc7f7a89bf1e6400d03
-		<h2>Teste</h2>
-=======
 		<div>
 			<h1>Django Blog</h1>
 		</div>
-
 		{% for post in posts %}
-			<dir>
+			<div>
 				<p>published: {{ post.published_date }}</p>
 				<h1>{{ post.title }}</h1>
 				<p>{{ post.text|linebreaksbr }}</p>>
-			</dir>
+			</div>
 		{% endfor %}
->>>>>>> Modified templates to display posts from database.
-=======
-<<<<<<< HEAD
 		<div>
-			<h1>Django Blog</h1>
-		</div>
-
-		{% for post in posts %}
-			<dir>
-				<p>published: {{ post.published_date }}</p>
-				<h1>{{ post.title }}</h1>
-				<p>{{ post.text|linebreaksbr }}</p>>
-			</dir>
-		{% endfor %}
-=======
-		<h2>Teste</h2>
->>>>>>> 5aa09bf3421796c56ae8bcc7f7a89bf1e6400d03
->>>>>>> 2ee205d348a36cd40ee6ab6760ac7fb4828247f4
 	</body>
 </html>
